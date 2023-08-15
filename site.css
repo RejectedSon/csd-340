@@ -1,0 +1,38 @@
+<!-- Benjamin Andrew, CSD340 Module 3.2 CSS file -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Andrew Module 3 CSS</title>
+</head>
+<style type="text/css">
+container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    }
+h1, h2, h3, h4 {
+    font-size: 20px;
+    font-family: "Times New Roman", serif;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #817f82;
+    color: #7818a1;
+    border: 1px solid #D6A800;
+    padding: 10px;
+    }
+a {
+    color: #df9eff;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #817f82;
+    }
+a:hover {
+    text-decoration-line: underline;
+    color: #f553ed;
+    }
+a:visited {
+    color: #faaaf6;
+    text-decoration: none;
+    }
+</style>

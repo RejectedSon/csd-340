@@ -1,0 +1,35 @@
+<!-- Benjamin Andrew :Assignment 2.2 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Benjamin Andrew's CSD 340 Landing Page</title>
+    <link href="C:/Git/csd/csd-340/csd-340/site.css"
+        type="text/css"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+    <h1>Benjamin Andrew's CSD 340 Landing Page</h1>
+    <h2>CSD 340 Web Development with HTML and CSS</h2>
+<hr>
+    <h3><b>Module Assignments</b></h3>
+        <ul>
+            <li><a href="C:/Git/csd/csd-340/csd-340/module-1/Andrew_Mod1_3.html">Assignment 1.3></a></li>
+            <li><a href="C:/Git/csd/csd-340/csd-340/module-2/Andrew_Mod2_2.html">Assignment 2.2></a></li>
+            <li><a href="C:/Git/csd/csd-340/csd-340/module-3/Andrew_Mod3_3.html">Assignment 3.3></a></li>
+        </ul>
+    <h3><b>Projects</b></h3>
+        <ul>
+            <li><a href="">bioSite Project Home Page</a></li>
+        </ul>
+    <h4><b>Links</b></h4>
+        <ul>
+            <li><a href="https://validator.w3.org/">W3C HTML Validator</a></li>
+            <li><a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a></li>
+            <li><a href="https://www.w3schools.com/html/">HTML Tutorial</a></li>
+            <li><a href="https://bruinconnect.bellevue.edu/app/UserHome">Bruin Connect</a></li>
+         </ul>
+
+</div>
+</html>
