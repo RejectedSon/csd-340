@@ -1,11 +1,19 @@
-<!-- Benjamin Andrew :Assignment 2.2 -->
+<!-- Benjamin Andrew :Assignment 3.2 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Benjamin Andrew's CSD 340 Landing Page</title>
-    <link href="https://github.com/RejectedSon/csd-340/blob/main/site.css"
-        type="text/css"
-        rel="stylesheet">
+    <title>CSD 340 Development with HTML and CSS</title>
+    <meta name="description"
+        content="Assignment 2 for Module 3 CSD340 HTML">
+    <meta name="robots"
+        content="nofollow">
+    <meta name="author"
+        content="Benjamin Andrew">
+    <meta name="pragma"
+        content="no-cache">
+<link href="https://github.com/RejectedSon/csd-340/blob/main/module-3/Andrew_Mod3_3.css"
+    type="text/css"
+    rel="stylesheet">
 </head>
 
 <body>
