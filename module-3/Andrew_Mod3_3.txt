@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>CSD 340 Development with HTML and CSS</title>
+    <title>CSD 340 Web Development with HTML and CSS</title>
     <meta name="description"
         content="Assignment 3 for Module 3 CSD340 HTML">
     <meta name="robots"
@@ -15,3 +15,7 @@
     type="text/css"
     rel="stylesheet">
 </head>
+    <div id="container">
+    <h1>Assignment 3.3: Build a Web Page Excercise - Part 3</h1>
+    <div id="rightDiv"><h2>UWU</h2></div>
+    <div id="leftDiv"><h2>FUCK</h2></div>
