@@ -1,0 +1,48 @@
+<!-- Benjamin Andrew, CSD340 Module 3.3 CSS file -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Andrew Module 3 CSS</title>
+</head>
+<style type="text/css">
+h1 {
+text-align: center;
+    }
+.twoDivs {
+    border: 3px solid #fff;
+    padding: 20px;
+    }
+.oneDiv {
+    width: 45%;
+    float: left;
+    padding: 20px;
+    }
+.leftDiv {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    }
+.rightDiv {
+    border: 1px dashed red;
+    padding: 10px;
+    border-radius: 2px;
+    }
+.underDiv {
+    position: absolute;
+    bottom: 600px;
+    left: 2250px;
+    width: 100px;
+    height: 100px;
+    margin-top: 60%;
+    width: 100%;
+    }
+h3 {
+    font-weight: 500;
+    }
+li {
+   font-weight: 300; 
+   }
+ul {
+   list-style-type: upper-roman; 
+   }
+</style>
