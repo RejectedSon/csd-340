@@ -1,54 +1,73 @@
-<!-- Benjamin Andrew :Assignment 3.3 -->
+<!-- Benjamin Andrew :Assignment 4.2 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <title>CSD 340 Web Development with HTML and CSS</title>
     <meta name="description"
-        content="Assignment 3 for Module 3 CSD340 HTML">
+        content="Assignment 2 for Module 4 CSD340 HTML">
     <meta name="robots"
         content="nofollow">
     <meta name="author"
         content="Benjamin Andrew">
     <meta name="pragma"
         content="no-cache">
-<link href="Andrew_Mod3_3.css"
+<link href="Andrew_Mod4_2.css"
     type="text/css"
     rel="stylesheet">
 </head>
     <div id="container">
-<center><h1>Assignment 3.3: Build a Web Page Excercise - Part 3</h1></center>
-<div class="twoDivs">
-    <div class="oneDiv">
-        <div class="leftDiv">
-            <h3>Top 10 Favorite Books</h3>
-            <ol>
-                <li>The Holy Bible by Jesus Christ</li>
-                <li>Blood Requiem Mutation by Lawrence R. Henry</li>
-                <li>The Lord of the Rings Trilogy by J.R.R. Tolkein</li>
-                <li>The Warrior Series by Erin Hunter</li>
-                <li>A Time to Kill by Greg Hopkins</li>
-                <li>Complete Confidence by Sheenah Hankin, Ph.D.</li>
-                <li>Eat that Frog! by Brian Tracy</li>
-                <li>The 21 Irrefutable Laws of Leadership by John C. Maxwell</li>
-                <li>How to Win Friends and Influence People by Dale Carnegie</li>
-                <li>D20 Modern by Wizards of the West Coast</li>
-            </ol>
-        </div>
+<div class="parent">
+<div class="image-gallery">
+<div class="div1">
+
+<h1>Assignment 4.2: Build a Web Page Excercise - Part 4</h1>
+
+</div>
+
+<div class="div2">
+
+    <div class="column1of3">
+        <figure>
+        <h3>The Holy Bible</h3>
+        <img src="images/Bible.jpg" alt="The Holy Bible" width="200" height="200">
+        <figcaption>Author: Jesus Christ</figcaption>
+        </figure>
     </div>
-    <div class="oneDiv">
-        <div class="rightDiv">
-        <h3>5 Things I've Learned Since the Course Started</h3>
-        <ul>
-                <li>I can read 250 pages of information in 6 hours</li>
-                <li>I can create webpages on GitHub that function</li>
-                <li>I have a lot more to learn about HTML and CSS than I originally thought</li>
-                <li>I can code on 4 hours of sleep and be successful</li>
-                <li>I can not turn in a code without triple checking my instructions</li>
-        </ul>
-        </div>
+
+</div>
+
+<div class="div3">
+
+    <div class="column2of3">
+        <figure>
+        <h3>Blood Requim: Mutation</h3>
+        <img src="images/Brm.jpg" alt="Blood Requim: Mutation" width="200" height="200">
+        <figcaption>Author: Lawrence Henry</figcaption>
+        </figure>
     </div>
+
+</div>
+
+<div class="div4">
+
+    <div class="column3of3">
+        <figure>
+        <h3>The Lord of the Rings, a Trilogy</h3>
+        <img src="images/Lotr.jpg" alt="The Lord of the Rings, a Trilogy" width="200" height="200">
+        <figcaption>Author: J.R.R. Tolkein</figcaption>
+        </figure>
+    </div>
+
+</div>
+
+<div class="div5">
+
+    <div class="underDiv">
+        <a href="../index.html">Home Page></a>
+    </div>
+
 </div>
 </div>
-<div class="underDiv">
-    <a href="https://github.com/RejectedSon/csd-340/blob/main/index.html">Home Page></a>
 </div>
+</div>
+
