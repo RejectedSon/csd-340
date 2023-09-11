@@ -1,0 +1,49 @@
+<!-- Benjamin Andrew :Assignment 2.2 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSD 340 Development with HTML and CSS</title>
+    <meta name="description"
+        content="Assignment 3 for Module 9 CSD340 HTML">
+    <meta name="robots"
+        content="nofollow">
+    <meta name="author"
+        content="Benjamin Andrew">
+    <meta name="pragma"
+        content="no-cache">
+<link href="Andrew_Mod9_3.css"
+    type="text/css"
+    rel="stylesheet">
+<script>
+    var first = "Aragorn";
+    var second = "Edoras";
+    var third = "Beacons of Minas Tirith";
+    var fourth = "Th&#233;oden";
+</script>
+</head>
+
+<body>
+    <div id="container">
+    <h1>Assignment 9.3: JavaScript - Part 1</h1>
+    <h2>A Fan Story, All characters belong to J.R.R. Tolkein</h2>
+	<p>This short story begins in underneath a humble tree in the fantastical world of Middle Earth. Our hero <span id = "Aragorn">_______</span> rests after a long walk through the open fields surrounding <span id = "Edoras">______</span>. Our hero quite enjoy's the gentle breeze shifting over the plains, hearing the grass gently sway to and fro underneath the faint whistle of the air over the hills.</p>
+	<p>However, he was unable to rest for long! As our hero begins to finally drift to sleep during the middle of the day, he slowly blinks awake. Something stirred him to look up at the mountain sides. He paused, standing up quickly and beginning a quick run back towards the captiol of Rohan. The <span id = "Beacons of Minas Tirith">_______________________</span>.</p>
+	<p>Our hero sprints through the city, narrowly avoiding unbothered citizens of Rohan as the Ranger makes his way into the keep. Once our hero entered the dinining hall, he looked about for King <span id = "Th&#233;oden">_______</span>. When the King of Rohon saw the Ranger he paused and hushed his council. "The beacons are lit! Gondor Calls for aid!" Cried the hero, waiting painfully for a few moments as the air became tense and cold. "And Rohon will answer" Replied the King.</p>
+                  <p>
+           <button type="button"
+             onclick="document.getElementById('Aragorn').innerHTML = first">Who is this hero?</button> <br>
+           <button type="button"
+             onclick="document.getElementById('Edoras').innerHTML = second">Where is he?</button> <br>
+           <button type="button"
+             onclick="document.getElementById('Beacons of Minas Tirith').innerHTML = third">What was lit?</button> <br>
+           <button type="button"
+             onclick="document.getElementById('Th&#233;oden').innerHTML = fourth">King who?</button> <br>
+	</p>
+     </div>
+<hr>
+<div class="address">
+	<a href="../index.html">Go home!</a>
+</div>
+</body>
+
+</html>

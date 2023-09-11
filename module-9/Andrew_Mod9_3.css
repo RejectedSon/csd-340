@@ -1,0 +1,46 @@
+<!-- Benjamin Andrew, CSD340 Module 2 CSS file. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Andrew Module 2 CSS</title>
+<style type="text/css">
+html, body {
+    font-size: 16px;
+    }
+p {
+    font-weight: 400;
+    font-size: 1.4em;
+    }
+h1 {
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    }
+h2 {
+    font-weight: 500;
+    text-align: left;
+    padding-top: 15px;
+    }
+.address {
+    text-align: center;
+    }
+a {
+   color: #4F3674;
+    font-size: 1.25em;
+    text-decoration: none;
+    }
+a:hover {
+    text-decoration-line: underline;
+    background-color: #D6A800;
+    }
+a:visited {
+    color: red;
+    background-color: black;
+    }
+.sentence {
+    font-style: italic;
+    }
+.intro {
+    text-indent: 2em;
+    }
+</style>
