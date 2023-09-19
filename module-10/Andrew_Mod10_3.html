@@ -1,0 +1,62 @@
+<!-- Benjamin Andrew :Assignment 10.3 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSD 340 Development with HTML and CSS</title>
+    <meta name="description"
+        content="Assignment 3 for Module 10 CSD340 HTML">
+    <meta name="robots"
+        content="nofollow">
+    <meta name="author"
+        content="Benjamin Andrew">
+    <meta name="pragma"
+        content="no-cache">
+<link href="Andrew_Mod10_3.css"
+    type="text/css"
+    rel="stylesheet">
+<script>
+      function pushMe(name) {
+document.getElementById("setImage").src = name;
+} 
+           
+
+</script>
+</head>
+
+<body>
+    <div class="main_content">
+        <div class="main_image">
+            <img src="cave_02.jpg" alt="sea" id="setImage">
+        </div>
+        <div class="all_image">
+            <img src="cave_01.jpg" alt="cave" id="getImage" onclick="pushMe('cave_01.jpg')">
+            <img src="cave_02.jpg" alt="negCave" id="getImage" onclick="pushMe('cave_02.jpg')">
+            <img src="moon_01.jpg" alt="moon" id="getImage" onclick="pushMe('moon_01.jpg')">
+            <img src="moon_02.jpg" alt="negMoon" id="getImage" onclick="pushMe('moon_02.jpg')">
+            <img src="meme_01.jpg" alt="meme1" id="getImage" onclick="pushMe('meme_01.jpg')">
+            <img src="meme_02.jpg" alt="meme1" id="getImage" onclick="pushMe('meme_02.jpg')">
+            <img src="meme_03.jpg" alt="meme1" id="getImage" onclick="pushMe('meme_03.jpg')">
+            <img src="squrriel_01.jpg" alt="meme1" id="getImage" onclick="pushMe('squrriel_01.jpg')">
+            <img src="squrriel_02.jpg" alt="meme1" id="getImage" onclick="pushMe('squrriel_02.jpg')">
+        </div>
+    </div>
+
+<div class="text">
+    <div
+         onmouseover="this.style.color='blue';"
+         onmouseout= "this.style.color='black';">
+      
+      Click an image on the right to change the image on the left.
+      <br>
+      Right-click and select View Source for more details.
+
+    </div>
+</div>
+
+<div class="address">
+	<a href="../index.html">Go home!</a>
+</div>
+
+</body>
+
+</html>

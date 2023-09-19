@@ -1,0 +1,33 @@
+<!-- Benjamin Andrew, CSD340 Module 10 CSS file. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Andrew Module 10 CSS</title>
+<style type="text/css">
+
+        body {
+            font: 20px Montserrat, sans-serif;
+            line-height: 1.8;
+            color: #f5f6f7;
+        }
+
+        .main_content {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .main_image {
+            width: 50%;
+        }
+
+        .main_image img {
+            width: 100%;
+            float: left;
+        }
+
+        .all_image img {
+            width: 16%;
+            float: left;
+            padding: 3px;
+        }
+</style>
