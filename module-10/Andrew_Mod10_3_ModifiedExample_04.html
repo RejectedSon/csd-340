@@ -1,11 +1,19 @@
-<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'
-  'http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd'>
-
-<html xmlns='http://www.w3.org/1999/xhtml'>
-  <head>
-    <title>
-      Example 10
-    </title>
+<!-- Benjamin Andrew :Assignment 10.3 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSD 340 Development with HTML and CSS</title>
+    <meta name="description"
+        content="Assignment 3 for Module 10 CSD340 HTML">
+    <meta name="robots"
+        content="nofollow">
+    <meta name="author"
+        content="Benjamin Andrew">
+    <meta name="pragma"
+        content="no-cache">
+<link href="Andrew_Mod10_3.css"
+    type="text/css"
+    rel="stylesheet">
     <script>
       function displayImage(imageFile){
         var largerImage = document.getElementById("mainImage");
@@ -18,9 +26,6 @@
         newNode.style.height = "200px";
         largerImage.parentNode.replaceChild(newNode, largerImage);
         }
-function pushMe() {
-    <p>woo I've been clicked!</p>
-      }
     </script>
 
     <link rel='stylesheet' type='text/css' href='body1.css' />
@@ -33,11 +38,9 @@ function pushMe() {
 
       <a href=#
          onmouseover="cave.src='cave_01.jpg';"
-         onmouseout= "cave.src='cave_02.jpg';"
+         onclick= "cave.src='cave_02.jpg';"
       >
-    <button onclick="pushMe()">
         <img border = 0 name = "cave" src = "cave_02.jpg">
-    </button>
       </a>
     </div>
     <br />
@@ -45,18 +48,16 @@ function pushMe() {
          onmouseover="this.style.color='red';"
          onmouseout= "this.style.color='black';">
 
-      Run your mouse over the image to change.
+      Hover over the image to change it, click to return to original image.
       <br />
 
     </div>
     <div>
       <a href=#
          onmouseover="moon.src='moon_01.jpg';"
-         onmouseout= "moon.src='moon_02.jpg';"
+         onclick= "moon.src='moon_02.jpg';"
       >
-    <button onclick="noMe()">
         <img border = 0 name = "moon" src = "moon_02.jpg">
-    </button>
       </a>
     </div>
     <br />
@@ -64,11 +65,17 @@ function pushMe() {
          onmouseover="this.style.color='red';"
          onmouseout= "this.style.color='black';">
 
-      Run your mouse over the image to change.
-      <br />
+      Hover over the image to change it, click to return to original image.
+      <br>
+      <br>
+      <br>
       Right-click and select View Source for more details.
 
     </div>
+
+<div class="address">
+	<a href="../index.html">Go home!</a>
+</div>
 
   </body>
 
