@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSD 340 Development with HTML and CSS</title>
+    <meta name="description" content="Assignment 2 for Module 11 CSD340 HTML">
+    <meta name="robots" content="nofollow">
+    <meta name="author" content="Benjamin Andrew">
+    <meta name="pragma" content="no-cache">
+    <link href="Andrew_Mod11_2.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<div id="container">
+    <h1>Assignment 11.2: JavaScript - Part 3</h1>
+    <br>
+    <p>This webpage will allow the user to input items into an array, delete the latest entry into the array, as well as display the entire array.
+    <ul>
+        <li>To add an item: Input a string into the text box, then click the "ADD" button. A minimum of 3 characters is required to add an item!</li>
+        <li>To remove the last item, click the "REMOVE" button.</li>
+        <li>To display the list, click the "SHOW ARRAY" button.</li>
+        <li>Last but not least, just have fun with it!</li>
+    </ul></p>
+    <p>Signed,</p>
+    <p>Benjamin Andrew</p>
+    <br>
+    <form action="/url" method="GET">
+        <label>
+            <input type="text" name="input" minlength="3" placeholder="Strings Only!">
+        </label>
+        <button type="button" onclick="yeet()">ADD</button>
+        <button type="button" onclick="deletus()">REMOVE</button>
+        <button type="button" onclick="displayArray()">SHOW ARRAY</button>
+    </form>
+    <br>
+    <hr>
+    <br>
+    <div id="output"></div>
+</div>
+
+<script>
+    var Array = [];
+    var arraySize = Array.length;
+
+    function yeet() {
+        var input = document.querySelector('input[name="input"]').value;
+        Array.push(input);
+        alert('Added: ' + input);
+    }
+
+    function deletus() {
+        var deleted = Array.pop();
+        alert(`Removed: ` + deleted);
+    }
+
+    function displayArray() {
+        var output = document.getElementById('output');
+        output.innerHTML = '<ul>';
+        for (var i = 0; i < Array.length; i++) {
+            output.innerHTML += '<li>' + (i + 1) + '. ' + Array[i] + '</li>';
+        }
+        output.innerHTML += '</ul>';
+    }
+</script>
+</body>
+</html>
