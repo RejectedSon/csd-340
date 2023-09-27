@@ -1,0 +1,70 @@
+<!-- Benjamin Andrew :Assignment 12.2 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <meta name="description"
+        content="Assignment 2 for Module 12 CSD340 HTML">
+    <meta name="robots"
+        content="nofollow">
+    <meta name="author"
+        content="Benjamin Andrew">
+    <meta name="pragma"
+        content="no-cache">
+<link href="Andrew_Mod12_2.css"
+    type="text/css"
+    rel="stylesheet">
+</head>
+
+<script>
+
+var books = new Array("1. The Holy Bible", "2. Blood Requiem Mutation", "3. The Lord of the Rings", "4. The Warrior Series", "5. A Time to Kill", "6. Complete Confidence", "7. Eat that Frog!", "8. The 21 Irrefutable Laws of Leadership", "9. How to Win Friends and Influence People", "10. D20 Modern");
+
+function oneToTen() {
+    var output = document.getElementById('output');
+    output.innerHTML = '<ol>'
+    for (var iter=0; iter < books.length; iter++) {
+        output.innerHTML += '<li>' + books[iter] + '</li>';
+    }
+}
+
+function tenToOne() {
+        var output = document.getElementById('output');
+    output.innerHTML = '<ol reversed>'
+    for (var iter=9; iter >= 0; iter--) {
+        output.innerHTML += '<li>' + books[iter] + '</li>';
+    }
+}
+
+</script>
+
+
+    <div id="container">
+<center><h1>Assignment 12.2: Build a Web Page Excercise - Part 4</h1></center>
+<div class="twoDivs">
+    <div class="oneDiv">
+        <div class="leftDiv">
+            <h3>Top 10 Favorite Books</h3>
+                <button type="button" onclick="oneToTen()">Top to Bottom</button>
+                <button type="button" onclick="tenToOne()">Bottom to Top</button>
+                <hr>
+                <div id="output"></div>
+        </div>
+    </div>
+    <div class="oneDiv">
+        <div class="rightDiv">
+        <h3>5 Things I've Learned Since the Course Started</h3>
+        <ul>
+                <li>I can read 250 pages of information in 6 hours</li>
+                <li>I can create webpages on GitHub that function</li>
+                <li>I have a lot more to learn about HTML and CSS than I originally thought</li>
+                <li>I can code on 4 hours of sleep and be successful</li>
+                <li>I can not turn in a code without triple checking my instructions</li>
+        </ul>
+        </div>
+    </div>
+</div>
+</div>
+<div class="underDiv">
+    <a href="../index.html">Home Page></a>
+</div>
